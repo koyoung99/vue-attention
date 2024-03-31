@@ -1,0 +1,93 @@
+
+.wrap {
+    font-size: 20px;
+    /* text-align: center; */
+}
+.coffeeHeader ul li:first-child a{
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    height: 80px;
+}
+.titleGroup{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin: 30px 0px 20px 100px;
+}
+
+.categoryGroup02 {
+    margin-top: 10px;
+}
+
+.categoryName {
+    text-align: left;
+}
+
+.totalCount {
+    text-align: right;
+}
+
+.totalSumGorup{
+    border: 1px solid black;
+    width: 300px;
+
+}
+
+
+.chartListGorup table {
+    width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-top: 1px solid #9d9b9b;
+    border-bottom: 1px solid #9d9b9b;
+}
+.chartListGorup table th, td{
+    padding: 10px;
+}
+
+.chartListGorup table tr{
+    border-bottom: 1px dotted #9d9d9d;
+}
+
+
+.chartListGorup table thead th:nth-child(1) {
+    width: 50px;
+}
+
+.chartListGorup table thead th:nth-child(2) {
+    width:500px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.chartListGorup table thead th:nth-child(3) {
+    width: 100px;
+}
+.chartListGorup table thead th:nth-child(4) {
+    width: 200px;
+    text-align: right;
+}
+.chartListGorup table tbody td:nth-child(2){
+    padding-left: 50px;
+}
+.chartListGorup table tbody tr td:first-child{
+    padding-left:20px;
+}
+.chartListGorup table tbody tr td:nth-child(3){
+    padding-left:40px;
+}
+.chartListGorup table tbody tr td:nth-child(4){
+    text-align: right;
+    padding-left: 5px;
+}
+.chartListGorup table tbody tr:last-child td{
+    font-weight: bolder;
+}
+.chartListGorup table tbody tr:last-child td:first-child{
+    text-align: center;
+}
+.chartListGorup table tbody tr:last-child td:last-child{
+    text-align: right;
+}
+
