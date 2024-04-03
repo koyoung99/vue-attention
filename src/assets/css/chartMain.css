@@ -1,28 +1,19 @@
 
-
-/* 매출현황 */
-.wrap {
-    font-size: 20px;
-    /* text-align: center; */
-    
+.chartMainHeader ul li:nth-child(2) a{
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    height: 80px;
 }
 
-.chartMainHeader ul li:last-child a{
-    width: 300px;
-}
 
-.chartMainHeader .logoImg  img{
-    display: block;
-    width: 300px;
-    height: 100px;
-    margin-top: 20px;
-    margin-left: -80px;
-}
-.titleGroup{
-    font-size: 40px;
+
+
+.titleGroup {
+    font-size: 30px;
     font-weight: bold;
     text-align: left;
-    margin: 30px 0px 30px 100px;
+    margin: 30px 0px 10px 100px;
 }
 
 
@@ -38,17 +29,12 @@
 
 } */
 
-.chartMainHeader ul li:nth-child(2) a{
-    background-color: white;
-    color:black;
-    font-weight: bolder;
-    height: 80px;
-}
-.chartMainGorup2 tr:nth-child(2) td:nth-child(2){
+
+.chartMainGorup2 tr:nth-child(2) td:nth-child(2) {
     text-align: right;
 }
 
-.chartMainGorup2 input{
+.chartMainGorup2 input {
     width: 170px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -65,79 +51,102 @@
     margin: 0 auto;
     border-collapse: collapse;
     margin-bottom: 100px;
+    font-size: 22px;
 }
-.chartMainGorup2 table tr td:nth-child(1){
+
+
+.chartMainGorup2 table tr td:nth-child(1) {
     width: 480px;
 }
-.chartMainGorup2 table tr:nth-child(3),tr:nth-child(4),tr:nth-child(5),tr:nth-child(6),tr:nth-child(7){
+
+.chartMainGorup2 table tr:nth-child(3),
+tr:nth-child(4),
+tr:nth-child(5),
+tr:nth-child(6),
+tr:nth-child(7) {
     border-bottom: 1px dotted #9d9bbb;
 }
 
-.chartMainGorup2 table th, td{
+.chartMainGorup2 table th,
+td {
     padding: 10px;
 }
 
-.chartMainGorup2 table tr:first-child td{
+.chartMainGorup2 table tr:first-child td {
     font-size: 23px;
     font-weight: bold;
 }
-.chartMainGorup2 table tr:nth-child(2){
+
+.chartMainGorup2 table tr:nth-child(2) {
     color: red;
     font-weight: bolder;
     font-size: 30px;
-    border-bottom: 1px solid #9d9bbb;    
+    border-bottom: 1px solid #9d9bbb;
     height: 30px;
 }
-.chartMainGorup2 table tr:nth-child(3) td{
+
+.chartMainGorup2 table tr:nth-child(3) td {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 50px;
     font-weight: bold;
 }
-.chartMainGorup2 table tr:nth-child(4) td{
+
+.chartMainGorup2 table tr:nth-child(4) td {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
 }
-.chartMainGorup2 table tr:nth-child(5) td{
+
+.chartMainGorup2 table tr:nth-child(5) td {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
 }
-.chartMainGorup2 table tr:nth-child(6) td{
+
+.chartMainGorup2 table tr:nth-child(6) td {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
 }
-.chartMainGorup2 table tr:nth-child(7) td{
+
+.chartMainGorup2 table tr:nth-child(7) td {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
 }
-.chartMainGorup2 table tr:nth-child(8) td{
+
+.chartMainGorup2 table tr:nth-child(8) td {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
 }
-.chartMainGorup2 table tr:nth-child(3) td:last-child{
+
+.chartMainGorup2 table tr:nth-child(3) td:last-child {
     padding-right: 50px;
     text-align: right;
 }
-.chartMainGorup2 table tr:nth-child(4) td:last-child{
+
+.chartMainGorup2 table tr:nth-child(4) td:last-child {
     text-align: right;
 }
-.chartMainGorup2 table tr:nth-child(5) td:last-child{
+
+.chartMainGorup2 table tr:nth-child(5) td:last-child {
     text-align: right;
 }
-.chartMainGorup2 table tr:nth-child(6) td:last-child{
+
+.chartMainGorup2 table tr:nth-child(6) td:last-child {
     text-align: right;
 }
-.chartMainGorup2 table tr:nth-child(7) td:last-child{
+
+.chartMainGorup2 table tr:nth-child(7) td:last-child {
     text-align: right;
 }
-.chartMainGorup2 table tr:nth-child(8) td:last-child{
+
+.chartMainGorup2 table tr:nth-child(8) td:last-child {
     text-align: right;
 }
-.chartMainGorup2 table tr:last-child{
+
+.chartMainGorup2 table tr:last-child {
     border-bottom: 2px solid #d9d9d9;
 }

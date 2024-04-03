@@ -2,15 +2,15 @@
     <div class="wrap">
         <!-- <img class="hostImg" src="@/assets/images/logo.png"> -->
         <div id="settingMenuBtn">
-            <!-- <span class="SettingHomeImg"><router-link to="" class="home">
+            <span class="SettingHomeImg"><router-link to="" class="home">
                     <img src="@/assets/images/home_icon.png"></router-link>
-                </span> -->
-                <span class="backImg"><router-link to="">
-                            <img src="@/assets/images/arrow.png"></router-link>
-                    </span>
+                </span>
+                <!--  <span class="SettingHomeImg"><router-link to="">
+                            <img src="@/assets/images/home_icon.png"></router-link>
+                    </span> -->
             
             <div class="MenuButtonGroup">
-                <button><router-link to="">메뉴<br>등록</router-link></button>
+                <button><router-link to="/manager">메뉴<br>등록</router-link></button>
                 <button><router-link to="/chart/main">총<br>매출</router-link></button>
                 <button><router-link to="/chart/coffeeview">카테고리매출</router-link></button>
             </div>

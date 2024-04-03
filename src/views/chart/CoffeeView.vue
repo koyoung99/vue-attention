@@ -5,7 +5,7 @@
             </router-link>
             <router-link to="/setting" class="logoImg"><img src="@/assets/images/attention.png"></router-link>
             <ul>
-                <li><router-link to="">메뉴등록</router-link></li>
+                <li><router-link to="/manager">메뉴등록</router-link></li>
                 <li><router-link to="/chart/main">총매출</router-link></li>
                 <li><router-link to="/chart/coffeeview">카테고리매출</router-link></li>
             </ul>
@@ -128,7 +128,7 @@ export default {
             console.log(attentionVo);
             axios({
                 method: 'post',  //put,post,delete
-                url: 'http://localhost:9001/attention/manager/chart/coffee',
+                url: 'http://localhost:9000/attention/manager/chart/coffee',
                 headers: { "Content-Type": "application/json; charset=utf-8" }, //전송타입
                 // params: { selectedDate: this.selectedDate}, //get방식 파라미터로 값이 전달
                 data: attentionVo, //put, post, delete 방식 자동으로 JSON으로 변환 전달
