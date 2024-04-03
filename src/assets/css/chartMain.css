@@ -4,6 +4,19 @@
 .wrap {
     font-size: 20px;
     /* text-align: center; */
+    
+}
+
+.chartMainHeader ul li:last-child a{
+    width: 300px;
+}
+
+.chartMainHeader .logoImg  img{
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: -80px;
 }
 .titleGroup{
     font-size: 40px;
@@ -11,6 +24,8 @@
     text-align: left;
     margin: 30px 0px 30px 100px;
 }
+
+
 .totalCount {
     text-align: right;
 }
@@ -23,6 +38,26 @@
 
 } */
 
+.chartMainHeader ul li:nth-child(2) a{
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    height: 80px;
+}
+.chartMainGorup2 tr:nth-child(2) td:nth-child(2){
+    text-align: right;
+}
+
+.chartMainGorup2 input{
+    width: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #9d9bbb;
+}
 
 
 .chartMainGorup2 table {

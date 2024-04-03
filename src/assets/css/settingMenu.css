@@ -12,6 +12,7 @@
 .SettingHomeImg img{
     margin-top: 10px;
 }
+
 .SettingHomeImg{
     float: left;
     
@@ -26,8 +27,8 @@
 }
 .backImg img{
     background-color: #31160B;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     float: right;
     margin-top: 25px;
@@ -41,15 +42,18 @@ a {
 }
 
 #settingMenuBtn{
-    background-image: url(../images/logo.png);
-    background-size: 800px;
+    background-image: url(../images/attention1.png);
+    background-size: 850px;
     background-repeat: no-repeat;
     background-position: center;
+    
 
 }
 
 #settingMenuBtn div{
-    margin-left: 270px;
+    margin: 0 auto;
+    width: 660px;
+    padding-top: 550px;
     
 
 }
@@ -57,14 +61,13 @@ a {
 #settingMenuBtn button {
     background-color: white;
     border:5px solid #FED900;
-    width: 260px;
-    height: 260px;
+    width: 200px;
+    height: 200px;
     border-radius: 45px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-    margin-left: 50px;
-    margin-top: 500px;
+    margin-left: 20px;
     
 }
 #settingMenuBtn button:hover {
