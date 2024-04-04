@@ -2,7 +2,7 @@
     <div class="wrap">
         <!-- <img class="hostImg" src="@/assets/images/logo.png"> -->
         <div id="settingMenuBtn">
-            <span class="SettingHomeImg"><router-link to="" class="home">
+            <span class="SettingHomeImg"><router-link to="/" class="home">
                     <img src="@/assets/images/home_icon.png"></router-link>
                 </span>
                 <!--  <span class="SettingHomeImg"><router-link to="">
